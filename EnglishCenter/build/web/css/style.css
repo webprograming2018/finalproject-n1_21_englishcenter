@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0; 
+}
+body {
+  font-family: sans-serif;
+  color: #333;  
+  background-color: #E9E3E3;
+
+} 
+/** 
+slide show 
+*/ 
+
+
+
+/* Main wrapper for all images */
+
+#google_translate_element {
+  padding: 1% 2em 0 2em;
+}
+#header {
+  background: #1B63AC ;
+}
+
+
+.header1.fix {
+  left: 0;
+  max-width: 100%;
+  overflow: visible;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1000;
+}
+#menu ul {
+  background: #1F568B;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+/*==Dropdown Menu==*/
+.sub-menu {
+  display: none;
+  position: absolute;
+  overflow: auto;
+}
+#menu li {
+  position: relative;
+}
+
+.sub-menu li {
+  margin-left: 0 !important;
+}
+
+/*==Menu cấp 3==*/
+
+
+/* Slideshow container */
+.slideshow-container {
+  width: auto; 
+
+  padding: 0 10% 0 10% ;
+  
+  background: #427F9E ; 
+  border: 2px solid #427F9E;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+} 
+
+
+/* Ẩn các slider */
+.mySlides {
+    display: none; 
+}
+/* Định dạng nội dung Caption */
+.text {
+  color: #000000;
+  font-size: 15px;
+  margin: 5em 0 0 0 ; 
+  padding: 200px 1em 1em auto;
+/*  position: absolute; */
+  width: 30%;
+  float: right; 
+  /*background-color: #FFFFFF;*/
+  text-align: left;
+}
+ 
+/* định dạng các chấm chuyển đổi các slide */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* khi được hover, active đổi màu nền */
+.active, .dot:hover {
+  background-color: #717171;
+}
+ 
+/* Thêm hiệu ứng khi chuyển đổi các slide */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+ 
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+ 
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.header1{ 
+  background: #EFEFEF;
+  text-align: center; 
+  margin: 0;
+  padding: 0 10%;
+
+}  
+#header {
+  padding: 0 10%;
+}
+#content {
+  padding: 1% 10%;
+
+
+}
+#footer {
+  padding: 1em 8em;
+}
+#slogan {
+    text-align: center;
+}
+
+.call-to-action {
+    text-align: center; 
+    color: #FFFFFF ;
+    padding: 1.5em 10%;
+    background: #2BACE3;
+    border: 1px solid#E8E8E8; 
+    border: 2px solid;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+} 
+/** 
+  Demo
+*/
+.container {
+  width: 960px;
+  border: 1px solid #333;
+  padding: 10px;
+  overflow: auto;
+}
+
+#tamnhin{
+    background-image: url(img/tamnhin.png); 
+    height: 200px;
+    padding: 10% 10% ;
+  background-repeat: no-repeat;
+  width: 80% ; 
+
+}
+/*==cột #post==*/
+#post {
+  width: 70%;
+  height: 300px;
+  background: #e8e8e8;
+  float: left;
+}
+
+/*==cột #sidebar==*/
+#sidebar {
+  width: 30%;
+  height: 300px;
+  background: #b1b1b1;
+  float: right;
+  
+}
+
+
+
+
+
+
+.top-articles { 
+  border: 2px solid #EEE;
+  background-color: #E7E7E7;
+}
+
+.top-articles::after {
+  clear: both;
+}
+
+.top-articles .item {
+  border: 2px solid #FFF;
+  width: 32%;
+  float: left;
+}
+
+.top-articles .item img {
+  width: 100%;
+  max-height: 150;
+}
+ 
+
+/** 
+  Demo
+*/
+
+.row { 
+    overflow: auto;
+    margin: 1.5em auto;
+    width: 100%;
+}
+
+
+.Khoa_hoc .Tin-tuc .Goc_chiase .Vechungtoi{
+    text-align: left;
+    background: #EFEFEF;
+    border: 1px solid#E8E8E8;
+    
+}
+
+.Vechungtoi{
+  text-align: center;
+  padding: 1% 0;
+    background: #EFEFEF;
+    border: 1px solid#E8E8E8;
+}
+
+.register {
+    color: #FFFFFF ;
+    text-align: center;
+    background: #2BACE3;
+  
+  
+} 
+
+
+
+.footer { 
+  color: #FFFFFF ;
+   padding: 10px;
+   overflow: auto;
+   background: #1B63AC;
+}
+.box1 {
+   width: 40%;
+   height: 300px;
+   
+   float: left;
+}
+.map {
+ width: 4 0%;
+ height: 300px;
+ float: right;
+}
+@media screen and (max-width:800px) {
+  .box1 , .map {
+    width:100%;
+  }
+}
+@media only screen and (max-width:620px) {
+
+  
+}
+@media only screen and (max-width: 768px) {
+  .col1, .col2, .col3 {
+    width:100%;
+  } 
+}
